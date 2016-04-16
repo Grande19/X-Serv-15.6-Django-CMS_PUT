@@ -34,4 +34,4 @@ def uso_put (request , nombre , cuerpo):
         page_new = Pages (nombre = nombre , page = request.body)
         page_new.save()
 
-    return HttpResponse ('Pagina introducidad')
+    return HttpResponse ('Pagina introducida:')
